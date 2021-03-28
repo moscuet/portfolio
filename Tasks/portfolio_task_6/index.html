@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Rahman Mostafizur" />
+    <meta name="keywords" content="HTML5, CSS3, Portfolio Project" />
+    <meta name="description", content="Portfolio: project for HTML5 and CSS3 course in Helsinki Business College"/>
+
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+     
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+       
+           <header>
+                <div id = 'header_container'>
+                    <div id ='nav_bar'>
+                        <div id="logo">
+                            <img src="./logo.svg"  alt="logo" >
+                        </div>
+                        <nav >
+                          <button id="mobile_button">
+                            <i class="fa_icon fa-large fas fa-bars"></i>
+                          </button>
+                           <ul>
+                            <li><a href="index.html">HOME</a></li> 
+                            <li><a href="#">ABOUT</a></li>   
+                            <li><a href="#future">PROJECTS</a></li>
+                            <li><a href="gallery.html">Gallery</a></li> 
+                            <li><a href="#footer">CONTACT</a></li>
+                           </ul>
+                        </nav>
+                    </div>
+                    <div id = 'hero_banner'>
+                        <h2>Welcome to my portfolio</h2>
+                    </div>
+                </div>
+            </header>
+
+            <main>
+                <section id = "works">
+                    <div class="section_container">
+                        <h2>Projects</h2>
+                        <div class="work_cards">
+                            <div class=card>
+                              <img
+                                src="https://source.unsplash.com/1600x900/?nature"
+                                alt="nature"
+                              />
+                              <h3>Lorem ipsum dolor sit</h3>
+                              <a href="#">See more</a>
+                            </div>
+                            <div class=card>
+                              <img src="https://source.unsplash.com/1600x900/?travel" alt="travel" />
+                              <h3>Lorem ipsum dolor sit</h3>
+                              <a href="#">See more</a>
+                            </div>
+                            <div class=card>
+                              <img
+                                src="https://source.unsplash.com/1600x900/?stock"
+                                alt="stock"
+                              />
+                              <h3>Lorem ipsum dolor sit</h3>
+                              <a href="#">See more</a>
+                            </div>
+                          </div>
+                    </div>
+                </section>
+
+                <section id = "experiences">
+                  <div class="section_container">
+                      <h2>Experiences</h2>
+                      <div class="experience_cards">
+                          <div class=card>
+                            <img
+                              src="https://source.unsplash.com/1600x900/?computer"
+                              alt="nature"
+                            />
+                            <h3>Lorem ipsum dolor sit</h3>
+                            <a href="#">See more</a>
+                          </div>
+                          <div class=card>
+                            <img src="https://source.unsplash.com/1600x900/?mobile" alt="travel" />
+                            <h3>Lorem ipsum dolor sit</h3>
+                            <a href="#">See more</a>
+                          </div>
+                          <div class=card>
+                            <img
+                              src="https://source.unsplash.com/1600x900/?web"
+                              alt="stock"
+                            />
+                            <h3>Lorem ipsum dolor sit</h3>
+                            <a href="#">See more</a>
+                          </div>
+                        </div>
+                  </div>
+              </section>
+
+                <section id = "skills">
+                    <div class="section_container">
+                      <h2>Skills</h2>
+                      <div class="skill_cards">
+                        <div class="card">
+                          <i class="fa-3x fab fa-html5"></i>
+                          <p>HTML5</p>
+                          <progress value="95" max="100"></progress>
+                        </div>
+                        <div class="card">
+                          <i class="fab fa-3x fa-css3-alt"></i> 
+                          <p>CSS3</p> 
+                          <progress value="60" max="100"></progress>
+                        </div>
+                        <div class="card">
+                          <i class="fab fa-3x fa-react"></i>
+                          <p>React</p>
+                          <progress value="80" max="100"></progress>
+                        </div>
+                        <div class="card">
+                          <i class="fab fa-3x fa-node"></i>                          <p>Node.js</p>
+                          <progress value="70" max="100">%</progress>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+            </main>
+              
+              <footer id ='footer'>
+
+                   <div class="footer_container">
+                        <h2>
+                          Say Hello!
+                        </h2>
+
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Your name</label>
+                                <input type="text" name="name" id="name" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your email</label>
+                                <input type="email" name="email" id="email" />
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Write message</label>
+                                <textarea name="message" id="message"></textarea>
+                            </div>
+                            <input type="submit" value="Submit">
+
+                        </form>
+                        <div>
+                          <p>Copyright © 2021 Mostafizur Rahman</p>
+                          <a href="#"><i class="arrow_icon fa-large fas fa-arrow-up"></i></a>                    
+                        </div>
+                        
+                   </div>
+              </footer>
+      
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
