@@ -1,4 +1,5 @@
-Portfolio 1: Beginning of portfolio page
+# Portfolio Project for helsinki business college's course on HTML5 and CSS3
+
 
  
 
