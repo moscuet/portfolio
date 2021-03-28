@@ -68,6 +68,10 @@ nav ul {
 }
 nav ul li {
     list-style: none;
+    
+}
+a{
+  text-decoration: none;
 }
 #logo {
 
